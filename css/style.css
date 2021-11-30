@@ -1,0 +1,185 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17.6.2020
+    Author     : Maria Järvinen
+
+    green: #4C8930
+    background: #ffffff
+    news background: #ECEEEF
+    footer background:#000000
+    white text:#f3f7f1 footer:#fcfcfc
+    dark text:#3b3e40
+
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+main{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+
+/* header section*/
+
+.upper{ /* above navigation bar*/
+    background-color: #4C8930;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:50px;
+}
+.uptext{
+    color: #fcfcfc !important;
+}
+.lang{ /* dropdown for language*/
+    background-color: #ffffff !important;
+    color:#3b3e40 !important;
+}
+header{
+    background-color: #ffffff;
+    padding-top:10px;
+}
+.navi{
+    padding-top:20px;
+    padding-bottom: 20px;
+    padding-left:50px;
+    color:#3b3e40 !important;
+    padding-right: 50px;
+}
+.mainpic{ /*main picture*/
+    width:100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    height:300px;
+}
+.main{
+    padding-left: 0;
+    padding-right: 0;
+    height:300px;
+    position: relative;
+  text-align: center;
+}
+
+.logo{
+    height:50px;
+}
+.btn{
+    background-color: #4C8930 ;
+    color:#f3f7f1;
+}
+
+/* First section*/
+
+/* text over pictures*/
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#f3f7f1;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+.fa-3x, .fa-2x{ /*icons*/
+    color:#4C8930;
+}
+.icons{
+    padding-top:50px;
+}
+.icontext{
+    padding-left: 30px;
+    
+}
+.number{
+    font-size: xx-large;
+    font-weight: bold;
+    color:#3b3e40;
+    animation-name: animation;
+    animation-duration: 4s;
+}
+@keyframes animation {
+    0% {color:#3b3e40;}
+    25% {color:#4C8930;}
+    50% {color:orange;}
+    2100% {color:#4C8930;}
+  }
+.basic{
+    color: #3b3e40;
+    background-color: #ffffff;
+    padding-left:50px;
+    padding-right:50px;
+    text-align: center;
+    padding-bottom:50px;
+    padding-top: 50px;
+}
+
+/*Second section - news*/
+
+.news{
+    
+    padding-bottom:50px;
+    padding-top: 50px;
+    padding-left:50px;
+    padding-right:50px;
+    color: #3b3e40;
+    background-color: #ECEEEF;
+    text-align: center;
+}
+.date{
+    text-align: left;
+    color: grey;
+}
+.heading{
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+
+/*Third section - references*/
+.refimg{
+   height: 200px;
+   border-bottom: 1px solid #ECEEEF;
+}
+.ref{
+    height: 400px;
+}
+
+/*Second section - newsletter*/
+
+.letter{
+    border-top:#ECEEEF solid ;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.email{
+   margin-bottom: 5px;
+}
+.thanks{ /* thank you note*/
+    padding-top: 10px;
+}
+
+
+/* Footer section*/
+footer{
+    background-color: #000000;
+    color: #fcfcfc;
+    padding-left:50px;
+    padding-right:50px;
+    
+}
+.rightfoot{
+    text-align: right;
+}
+.navtext{
+    color:#3b3e40 !important;
+}
+.contact{ /* contact us button in footer*/
+    display: inline-block;
+    align-self: flex-end;
+    padding-bottom:20px;
+}
